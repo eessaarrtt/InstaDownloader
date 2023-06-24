@@ -69,7 +69,6 @@ const LoadedFeed: React.FC<LoadedFeedProps> = (props) => {
     window.location.reload();
   }
 
-  console.log(responseObj);
   const storyArray = responseObj.feed.data;
   if (!storyArray) {
     return (
